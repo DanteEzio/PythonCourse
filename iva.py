@@ -3,7 +3,10 @@
 
 precio = float(input('Ingresa el precio del producto: '))
 
-resultado = precio * 0.16
+iva = precio * 0.16
+total_con_iva = precio + iva
 
-print('El precio del IVA es: ', str(resultado))
+print('El precio del IVA es: ', str(iva))
+print('El precio del producto con IVA incluido es: ', str(total_con_iva))
+
 
