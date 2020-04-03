@@ -1,9 +1,9 @@
 #El usuario ingrese el precio del producto
 #Se le muestra al finalel valor de IVA
 
-Precio = float(input('Ingresa el precio del producto: '))
+precio = float(input('Ingresa el precio del producto: '))
 
-Resultado = Precio * 0.21
+resultado = precio * 0.16
 
-print('El precio del IVA es: ', str(Resultado))
+print('El precio del IVA es: ', str(resultado))
 
