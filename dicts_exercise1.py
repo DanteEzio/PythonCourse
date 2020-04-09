@@ -7,4 +7,6 @@ profile = {
     'email': input("Input your email: ")
 }
 
-print(profile)
+for key, value in profile.items():
+    print(f'{key}: {value}')
+
